@@ -6,7 +6,7 @@ class NewTweet extends Component {
 		return (
 			<div className = "NewTweet-Container">
 				<h1>Compose New Tweet</h1>
-				<div className="Message"></div>
+				<div className="Message">Message</div>
 			</div>
 		)
 	}
