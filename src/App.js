@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NewTweet from './NewTweet';
 import './App.css';
 import { Link } from 'react-router-dom';
 
@@ -10,7 +11,7 @@ class App extends Component {
           <div className = "NavBar">
             <ul>
               <li>Home</li>
-              <li><Link to="/newtweet" className = "new-tweet-link">New Tweet</Link></li>
+              <li><Link path="/newtweet">New Tweet</Link></li>
             </ul>
           </div>
         </header>
